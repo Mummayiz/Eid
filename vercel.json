@@ -1,0 +1,13 @@
+{
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "public": true,
+  "regions": ["sfo1"],
+  "env": {},
+  "routes": [
+    {
+      "src": "/(.*)",
+      "destination": "/eid-mubarak.html"
+    }
+  ]
+}
