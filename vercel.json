@@ -6,7 +6,7 @@
   "env": {},
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/(?!.*\\.(?:jpg|jpeg|png|gif|css|js|svg|ico|webp)$).*",
       "destination": "/eid-mubarak.html"
     }
   ]
